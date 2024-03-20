@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PadelMania</title>
+    <link rel="stylesheet" href="Recuperar_Contrasenya.css">
+    <script src="Scripts/Recuperar_Contrasenya.js"></script>
+</head>
+<body>
+    <header id="recuperar_header">
+        <img src="Fotos_padel/Cabecera.png" alt="Logo Cabecera">
+        <h1>Recuperar Contrasenya</h1>
+        <br>
+    </header>
+    <main>
+        <section id="formulari">
+            <p>Per poder recuperar sa contrasenya, rellena les següents caselles:</p>
+            <div>
+                <!--Cream formulari-->
+                <form for="recuperacio_contrasenya" method="post">
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="email" placeholder="Email" name="email" id="email" required>
+                    <br>
+                    <label for="pregunta_seguretat">Introdueix el dos primers digits del teu DNI i la lletra:</label>
+                    <br>
+                    <input type="text" name="pregunta_seguretat" id="pregunta_seguretat" placeholder="Pregunta de Seguretat">
+                    <br>
+                    <label for="contrasenya_nova">Constrasenya Nova:</label>
+                    <br>    
+                    <input type="password" name="contrasenya_nova" id="contrasenya" required pattern="[A-Z]{1}[0-9]{2}">
+                    <br>
+                    <br>
+                    <input type="button" onclick="recuperarContrasenya()" value="Recuperar Contrasenya">
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

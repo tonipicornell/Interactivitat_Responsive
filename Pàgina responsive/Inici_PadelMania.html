@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PadelMania</title>
+    <link rel="stylesheet" href="Inici_PadelMania.css">
+    <script src="Scripts/Inici_PadelMania.js"></script>
+</head>
+<body>
+    <header id="inici_cabecera">
+        <img src="Fotos_padel/Cabecera.png" alt="Logo Cabecera">
+        <h1>PadelMania</h1>
+        <br>
+    </header>
+    <main>
+        <h2>Benvingut a la pàgina de PadelMania</h2>
+        <br>
+        <section id="iniciar_sessio">
+            <h4>Inici Sessió</h4>
+            <div class="formulari">
+                <!--Cream formulari-->
+                <form for="inici_sessio" method="post">
+                    <label for="usuari">Usuari:</label>
+                    <br>
+                    <input type="text" name="usuari" id="usuari" placeholder="Usuari" required>
+                    <br>
+                    <label for="password">Contrasenya:</label>
+                    <br>
+                    <input type="password" name="password" id="password" placeholder="Contrasenya" required pattern="[A-Z]{1}[0-9]{2}">
+                    <br>
+                    <br>
+                    <!--He posat un button, perquè sino no hem deixava accedir a la pàgina web-->
+                    <input type="button" onclick="iniciUsuari()" value="Accedir" id="accedir">
+                </form>
+                <p class="canviar_tamany">Has olvidat la teva contrasenya?</p>
+                <a href="Recuperar_Contrasenya.html" class="canviar_format">Clica per recuperar la teva contrasenya</a>
+                <p class="canviar_tamany">No tens compte d'usuari?</p>
+                <a href="Crear_Compte_PadelMania.html" class="canviar_format">Pots crear una compte d'usuari polsant aquest text</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

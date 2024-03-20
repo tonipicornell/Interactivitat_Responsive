@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquesta de Satisfacció</title>
+    <link rel="stylesheet" href="Enquesta_PadelMania.css">
+    <script src="Scripts/Enquesta_PadelMania.js"></script>
+</head>
+<body>
+    <header id="equesta_cabecera">
+        <img src="Fotos_padel/Cabecera.png" alt="Logo Cabecera">
+        <h1>Enquesta de Satisfacció</h1>
+        <br>
+    </header>
+    <main>
+        <section>
+            <div id="formulari">
+                <!--Cream formulari-->
+                <form method="get">
+                    <label for="usuari">Quin es el teu nom d'usuari (opcional):</label>
+                    <br>
+                    <input type="text" name="usuari">
+                    <br>
+                    <label for="puntuacio">Com puntuaries aquesta pàgina web?</label>
+                    <br>
+                    <label for="uno">1</label>
+                    <input type="radio" name="puntuacio" id="uno" required>
+                    <br>
+                    <label for="dos">2</label>
+                    <input type="radio" name="puntuacio" id="dos" required>
+                    <br>
+                    <label for="tres">3</label>
+                    <input type="radio" name="puntuacio" id="tres" required>
+                    <br>
+                    <label for="cuatro">4</label>
+                    <input type="radio" name="puntuacio" id="cuatro" required>
+                    <br>
+                    <label for="cinco">5</label>
+                    <input type="radio" name="puntuacio" id="cinco" required>
+                    <br>
+                    <label for="seis">6</label>
+                    <input type="radio" name="puntuacio" id="seis" required>
+                    <br>
+                    <label for="siete">7</label>
+                    <input type="radio" name="puntuacio" id="siete" required>
+                    <br>
+                    <label for="ocho">8</label>
+                    <input type="radio" name="puntuacio" id="ocho" required>
+                    <br>
+                    <label for="nueve">9</label>
+                    <input type="radio" name="puntuacio" id="nueve" required>
+                    <br>
+                    <label for="diez">10</label>
+                    <input type="radio" name="puntuacio" id="diez" required>
+                    <br>
+                    <br>
+                    <input type="button" onclick="enquestaPagina()" value="Clica">
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,31 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*En el body posarem l'imatge de fons*/
+body{
+    background-image: url(Fotos_padel/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10;
+    overflow: scroll;
+}
+/*Aqui he posat que l'element imatge reduïrà la seva grandaria a la capçalera*/
+img{
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+/*A tot l'element header li he posat el fons de color blau.*/
+#equesta_cabecera{
+    background-color: blue;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+#formulari{
+    text-align: center;
+}

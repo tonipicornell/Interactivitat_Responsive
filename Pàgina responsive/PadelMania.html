@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PadelMania</title>
+    <!--He afegit el link per unir l'element css amb el html-->
+    <link rel="stylesheet" href="PadelMania.css">
+    <script src="Scripts/PadelMania.js"></script>
+</head>
+<body>
+    <!--He posat una capçalera utilitzant l'element header-->
+    <header id="cabecera_header">
+        <!--Aquesta imatge serà el logo de la pàgina-->
+        <img src="Fotos_padel/Cabecera.png" alt="Logo Cabecera">
+        <!--El títol principal de la pàgina serà de nivell 1-->
+        <h1>PadelMania</h1>
+        <!--He afegit un nav per posar botons de navegació dins del header per enllaçar altres pàgines-->
+        <nav class="botons">
+            <!--Al botó li he posat un element class per poder-lo editar al CSS-->
+            <button class="boton_inici"><a href="Historia.html" target="_blank">Història</a></button>
+            <button class="boton_inici"><a href="Formes_pales.html" target="_blank">Pales</a></button>
+            <button class="boton_inici"><a href="Pistes.html" target="_blank">Pistes</a></button>
+            <button class="boton_inici"><a href="Millors_parelles.html" target="_blank">Parelles</a></button>
+            <button class="boton_inici"><a href="Tornejos.html" tar get="_blank">Tornejos</a></button>
+        </nav>
+    </header>
+    <!--He afegit l'element main per indicar la secció de la pàgina web-->
+    <main>
+        <!--L'element section m'indica la següent secció de la pàgina-->
+        <button onclick="videoPadel()">Video</button>
+        <section>
+            <h2>Què és el pàdel?</h2>
+            <p>El pàdel és un esport de paleta d'origen mexicà. S'hi juga sempre en parelles i consta de tres elements fonamentals per al seu desenvolupament:</p>
+            <ol>
+                <li>La pilota</li>
+                <li>La pala</li>
+                <li>El camp de joc o pista</li>
+            </ol>
+            <p>Aquest esport consisteix a botar la pilota al camp contrari, amb la possibilitat de fer rebotar la pilota a les parets i als vidres.</p>
+            <h2>Quin propòsit té aquesta pàgina web?</h2>
+            <p>El propòsit d'aquesta pàgina web és conèixer el pàdel amb més profunditat, com per exemple: la història, les millors parelles, els tornejos...</p>
+            <h3>Quin contingut trobaren en aquesta web?</h3>
+            <p>En aquesta web podrem trobar tot tipus de contingut per conèixer el pàdel:
+                <!--He afegit el nav, perquè he posat a un llista desordenada tot el contingut que trobarem a les pàgines enllaçades-->
+                <nav>
+                    <ul>
+                        <li><a href="Historia.html" target="_blank">Història del pàdel</a></li>
+                        <li><a href="Formes_pales.html" target="_blank">Formes de les pales</a></li>
+                        <li><a href="Pistes.html" target="_blank">Diferents pistes que podem trobar</a></li>
+                        <li><a href="Millors_parelles.html" target="_blank">Millors parelles</a></li>
+                        <li><a href="Tornejos.html" target="_blank">Tornejos</a></li>
+                    </ul>
+                </nav>
+            </p>
+            <h2 id="titolDos">Millor punt de la història del pàdel:</h2>
+            <video id="video_tamany" src="Videos_Padel/Punto_Padel.mp4" poster="Fotos_padel/Momo_Gonzalez.jpg" controls></video>
+            <!--Amb el br he fet un salt de línea-->
+            <br>
+            <button><a href="Enquesta_PadelMania.html">Enquesta PadelMania</a></button>
+        </section>
+    </main>
+    <!--Aquest footer indica el peu de pàgina de la web-->
+    <footer id="footer_informació">
+        <p class="color_lletra"><b>Autor:</b> Antonio Picornell Perdigón</p>
+        <p class="color_lletra"><b>Per connectar:</b> <a class="enlace" href="apicornellperdigón@cifpfbmoll.eu" target="_blank">apicornellperdigon@cifpfbmoll.eu</a></p>
+        <p class="color_lletra">Font de la informació:</p>
+        <ul class="color_lletra">
+            <li><a class="enlace" href="https://es.wikipedia.org/wiki/P%C3%A1del" target="_blank">Wikipedia</a></li>
+            <li><a class="enlace" href="https://www.youtube.com/watch?v=mY4pv4lSPM4" target="_blank">Youtube</a></li>
+            <li><a class="enlace" href="https://www.freemake.com/es/free_video_downloader_perfect/" target="_blank">FreeMake</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

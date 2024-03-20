@@ -1,0 +1,68 @@
+/*Tota la pàgina de Historia tendra aquesta font de text*/
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*En el body posarem una imatge de fons i a més un scroll*/
+body{
+    background-image: url(Fotos_padel/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10;
+    overflow: scroll;
+}
+/*A la imatge del logo de la capçalera la reduirem*/
+img{
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+/*El color de tota la capçalera serà blau*/
+#header_parelles{
+    background-color: blue;
+}
+/*L'element h1 serà un text centrat, de color blanc i de tamany de 50px*/
+h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.boton_parelles{
+    background-color: white;
+}
+a[target="_blank"] {
+    color: black;
+}
+a:hover {
+    color: blue;
+}
+.botons {
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+#footer_parelles{
+    background-color: black;
+    font-size: 15px;
+}
+.color_lletra {
+    color: white;
+}
+.color_lletra {
+    color: white;
+}
+.enlace[target="_blank"] {
+    color: white;
+}
+.enlace:hover{
+    color: yellow;
+}
+@media (max-width: 936px) {
+    body {
+        background-image: none;
+    }
+    button {
+        display: inline-block;
+        width: 100%;
+    }
+}

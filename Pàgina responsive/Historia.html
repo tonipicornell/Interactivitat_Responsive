@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Història</title>
+    <!--He enllaçat el document css amb el HTML-->
+    <link rel="stylesheet" href="Historia.css">
+    <script src="Scripts/Historia.js"></script>
+</head>
+<body>
+    <!--Començam afegint un header per indicar la capçalera de la pàgina. A més, li he afegit un id per editar-lo en el CSS-->
+    <header id="historia_cabecera">
+        <!--Posam una imatge perquè sigui com el logo de la pàgina web-->
+        <img src="Fotos_padel/Cabecera.png" alt="Logo Cabecera">
+        <!--El títol principal de la pàgina web es de nivell 1-->
+        <h1>Història del pàdel</h1>
+        <!--He afegit un nav per posar botons de navegació dins del header per enllaçar altres pàgines-->
+        <nav class="botons">
+            <!--Al botó li he posat un element class per poder-lo editar al CSS-->
+            <button class="boton_historia"><a href="PadelMania.html" target="_blank">Inici</a></button>
+            <button class="boton_historia"><a href="Formes_pales.html" target="_blank">Pales</a></button>
+            <button class="boton_historia"><a href="Pistes.html" target="_blank">Pistes</a></button>
+            <button class="boton_historia"><a href="Millors_parelles.html" target="_blank">Parelles</a></button>
+            <button class="boton_historia"><a href="Tornejos.html" target="_blank">Tornejos</a></button>
+        </nav>
+    </header>
+    <!--He afegit l'element main per indicar la secció de la pàgina web-->
+    <main>
+        <!--L'element section m'indica la següent secció de la pàgina-->
+        <section>
+            <button onclick="canviarColor()">Canviar Color</button>
+            <button ondblclick="tornarColor()">Tornar Color</button>
+            <!--He posat l'element article per indicar el contingut de la secció-->
+            <article>
+                <div class="contenedor">
+                    <div>
+                        <h2 class="titolDos">Quin va ser l'origen del pàdel?</h2>
+                        <p class="text">El pàdel va néixer a Acapulco (Mèxic) al 1969, quan Enrique Corcuera va adaptar un terreny de la seva finca de 20x10 metres col·locant parets als fons i laterals, en principi perque la vegetació no envaís la seva pista a casa seva situada a Las Brisas. A més a més, aquest esport es jugava amb pales de fusta i rebia el nom de Paddle-Tennis.</p>
+                    </div>
+                    <img class="imagen1" src="Fotos_padel/PrimeraPista.jpg" alt="Primera_Pista_Pàdel">
+                </div>
+                <h2 class="titolDos">Com arriba el pàdel a Espanya?</h2>
+                <!--En aquest p, podem observar que he posat un enllaç a un nom perquè he trobat per les persones que visualitzin aquesta web i tenguin curiositat per sabre qui era en Alfonso Honhenlohe-->
+                <p class="text">En el cercle d'amics d'Enrique Corcuera hi havia el princep <a href="https://es.wikipedia.org/wiki/Alfonso_de_Hohenlohe-Langenburg" target="_blank">Alfonso Honhenlohe</a>. Alfonso Honhenloe va ser noble i promotor immobiliari de molts complexos <br> turistics a la Costa del Sol malaguenya.</p>
+                <p class="text">L'any 1970 en una visita a Mèxic a la casa d'Enrique, va quedar encantat amb aquesta nova modalitat d'esport, tant que a la tornada a Marbella va contruir <br> dues pistes en el Hotel Marbella Club (de la seva propietat). A més, va constuir les seves pistes amb algunes modificacions, com pot ser: una xarxa de filferro <br>en lloc de les parets laterals.</p>
+                <p class="text">Aquestes pistes van ser sey durant les dècades dels anys 80 i 90, dels famodos tornejos "Pro-Am", patrocinats per les botigues "Smith&Smith" de Las Arenas,<br> Bilbao (Espanya), propietat del Sr.Julio Alegría Artiach, una de les perosnes més importants de la història del Pàdel, per la seva visió, promoció, inversió i vida <br> dedicada a la difusió i desenvolupa a tots els nivells de l'esport del Pàdel.</p>
+                <p class="text">Molts de jugadors d'Argentina varen aprendre a Marbella el que era el pàdel i quan van tornar a Argentina van començar a difondre el pàdel com un joc <br>divertit i fàcil, que té instal·lacions barates. </p>
+                <p class="text">Es en aquest moment que va començar la expansió del pàdel cap a Argenita i Espanya.</p>
+                <h3 class="titolTres">Expansió del pàdel a Espanya:</h3>
+                <p class="text">A Espanya, el pàdel comença a expandir-se a les grans ciutats i clubs esportiuus de Madrid, Barcelona, Andalusia, Galícia, Catalunya... L'exit que va obtenir <br> en poc temps aquest esport, va atreure a figures destacades del tennis com <a href="https://es.wikipedia.org/wiki/Manolo_Santana" target="_blank">Manolo Santana</a>, que va començar a organitzar tornejos i propagar el pàdel <br>a tota la Costa del Sol, on diversos clubs van començar a contruir les seves pistes.</p>
+                <p class="text">Ja en el 1991, és quan es constitueix a Madrid la <a href="https://www.padelfip.com/es/" target="_blank">Federació Internacional de Pàdel</a>, sent un espanyol el president, Julio Alegría Artiach. Ell va ser qui es va <br> encarregar de crear un Circuit Internacional i concretar un reglament a nivell mundial. Després d'això el pàdel va començár a créixer il·limitadament i es va <br> començar a retransmitir campionats a través de la televisió.</p>
+                <p class="text">Finalment, el 1993 el pàdel es consolida com a modalitat esportiva després del reconeixement del Consell Superior d'Esports. A més, el pàdel s'ha estès a <br> altres països d'Amèrica com el Brasil, l'Uruguai, Xile, el Paraguai... També, s'està estenent poc a poc per països d'Europa com Suècia, el Regne Unit, França, <br> Alemanya, etc. De fet, s'ha anat succeint les diferents federacions en aquests països, aconseguint un gran èxit quant al nombre de federats i construcció <br> d'instal·lacions. Espanya en aquest sentit és reconeguda com la impulsora del pàdel a Europa.</p>
+            </article>
+        </section>
+    </main>
+    <footer id="footer_historia">
+        <p class="color_lletra"><b>Autor:</b> Antonio Picornell Perdigón</p>
+        <p class="color_lletra"><b>Per connectar:</b> <a class="enlace" href="apicornellperdigón@cifpfbmoll.eu" target="_blank">apicornellperdigon@cifpfbmoll.eu</a></p>
+        <p class="color_lletra">Font de la informació:</p>
+        <ul class="color_lletra">
+            <li><a class="enlace" href="https://www.palmaracketclub.es/wp-content/uploads/2020/12/EL-padel.pdf" target="_blank">Palma Racket Club</a></li>
+            <li><a class="enlace" href="https://www.padeladdict.com/historia-del-padel/" target="_blank">Padel Addict</a></li>
+            <li><a class="enlace" href="https://pasionpadel.com/historia-del-padel/" target="_blank">Pasion Padel</a></li>
+            <li><a class="enlace" href="https://medac.es/blogs/masteres-online/historia-del-padel" target="_blank">MEDAC</a></li>
+            <li><a class="enlace" href="https://es.wikipedia.org/wiki/P%C3%A1del#La_primera_pista_de_p%C3%A1del" target="_blank">Wikipedia</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
